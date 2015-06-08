@@ -20,6 +20,7 @@ import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,7 +31,7 @@ import android.widget.Toast;
 public class TrainActivity extends Activity {
 	private long mMapId;
 
-	private float tmpx, tmpy;
+	private boolean markerPlaced = false;
 	private Deque<ContentValues> mCachedResults = new LinkedList<ContentValues>();
 
 	private ImageView mImg;
@@ -100,17 +101,21 @@ public class TrainActivity extends Activity {
 		mAttacher.setOnPhotoTapListener(new OnPhotoTapListener() {
 			@Override
 			public void onPhotoTap(View view, float x, float y) {
-				tmpx = x * imgSize[0];
-				tmpy = y * imgSize[1];
 
-				mImgLocation[0] = tmpx;
-				mImgLocation[1] = tmpy;
+				mImgLocation[0] = x * imgSize[0];
+				mImgLocation[1] = y * imgSize[1];
+
+                if (markerPlaced)
+                    mAttacher.removeLastMarkerAdded();
+				mAttacher.addData(Utils.createNewMarker(getApplicationContext(),
+						mRelative, mImgLocation[0], mImgLocation[1]));
+                markerPlaced = true;
 
 				// need to imp a lock feature so i can move before scanning
 				// show temp marker here then replace with locked marker
 				// how to remove temp makers?
-				mDialog.show();
-				mWifiManager.startScan();
+				//mDialog.show();
+				//mWifiManager.startScan();
 			}
 		});
 
@@ -141,6 +146,12 @@ public class TrainActivity extends Activity {
 			setResult(RESULT_OK);
 			finish();
 			return true;
+        case R.id.action_lock:
+            if (markerPlaced) {
+                markerPlaced = false;
+                mDialog.show();
+                mWifiManager.startScan();
+            }
 		default:
 			return super.onOptionsItemSelected(item);
 		}

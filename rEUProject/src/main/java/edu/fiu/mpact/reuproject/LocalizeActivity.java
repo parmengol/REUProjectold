@@ -52,7 +52,7 @@ public class LocalizeActivity extends Activity {
 					bestGuess[1], R.drawable.o);
 
 			if (mHavePlacedMarker)
-				mAttacher.removeLastMarkerAdded();
+				mAttacher.removeLastMarkerAdded(); // not working as intended
 			mAttacher.addData(mark);
 			mHavePlacedMarker = true;
 		}

@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/REUProject/photoView/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-9999662ad5bae749d6b945939c507e763936ed05.jar" />
+        sha1="965f800be36ef729eb45174c81b7d6aaba975022">
+        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-c1a0a005db0076da8da6ded28e69c163a446c746.jar" />
     </item>
     <item
         jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
@@ -16,11 +16,11 @@
         <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-584ff53134d65ad08a720d1e9ff5108352980e67.jar" />
     </item>
     <item
-        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/REUProject/photoView/unspecified/jars/classes.jar"
+        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="6d65ceb4512c32f6529c490f9d6333a4d1c856ee">
-        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-c1a0a005db0076da8da6ded28e69c163a446c746.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-9999662ad5bae749d6b945939c507e763936ed05.jar" />
     </item>
     <item
         jar="/home/aquallut/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"

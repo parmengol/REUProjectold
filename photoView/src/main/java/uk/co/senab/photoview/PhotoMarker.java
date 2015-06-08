@@ -14,6 +14,4 @@ public class PhotoMarker {
 		this.y = y;
 		this.margin = margin;
 	}
-
-	public PhotoMarker move()
 }
