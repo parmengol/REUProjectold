@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/REUProject/photoView/unspecified/jars/classes.jar"
+        jar="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/REUProject/photoView/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="965f800be36ef729eb45174c81b7d6aaba975022">
-        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-c1a0a005db0076da8da6ded28e69c163a446c746.jar" />
+        sha1="d51f00907cb15f69afbe8b0b3991f60fac464bbf">
+        <dex dex="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-1a0e8647396d223f9279d1e8ea15434b84dcb64a.jar" />
     </item>
     <item
-        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-584ff53134d65ad08a720d1e9ff5108352980e67.jar" />
+        <dex dex="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c1228664710bee67c530de38baa52157207db227.jar" />
     </item>
     <item
-        jar="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-9999662ad5bae749d6b945939c507e763936ed05.jar" />
+        <dex dex="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/classes-838665350bc57f37843cec7764c701399cf163a7.jar" />
     </item>
     <item
-        jar="/home/aquallut/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/Rachelle/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/aquallut/StudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-7dc4d424c524dfbedad451bbce73357e0549bac0.jar" />
+        <dex dex="/Users/Rachelle/AndroidStudioProjects/REUProject/rEUProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-2884c844bf2c5dfbe3cf37a1cf14938c7748bf04.jar" />
     </item>
 
 </items>
